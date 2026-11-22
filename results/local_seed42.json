@@ -1,0 +1,14 @@
+{
+  "environment": "local deterministic workers, synthetic faults (NOT Meta or real LLMs)",
+  "seed": 42,
+  "tasks": 100,
+  "synthetic_failure_rate": 0.15,
+  "status_counts": {
+    "completed": 99,
+    "failed": 1
+  },
+  "injected_timeouts": 17,
+  "total_worker_attempts": 365,
+  "registry_entries": 99,
+  "all_completed": false
+}
